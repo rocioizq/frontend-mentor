@@ -11,6 +11,9 @@ El proyecto consiste en una tarjeta responsive compuesta por tres columnas, cada
 - **React**
 - **Vite**
 - **CSS
+- 
+## 📷 Screenshots  
+![3-Column Preview Card Component](design/desktop-preview.jpg)  
 
 ## 📌 Notas
 
