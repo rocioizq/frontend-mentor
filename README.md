@@ -1,12 +1,12 @@
-# Proyectos de Frontend Mentor - React + Cypress + VITE
+# Proyectos de Frontend Mentor - React + Cypress + Vite
 
-Este repositorio contiene mis proyectos realizados a partir de los desafíos de [Frontend Mentor](https://www.frontendmentor.io/), utilizando **React**, **Cypress** para pruebas automáticas y **VITE** para una experiencia de desarrollo más rápida.
+Este repositorio contiene mis proyectos realizados a partir de los desafíos de [Frontend Mentor](https://www.frontendmentor.io/), utilizando **React**, **Cypress** para pruebas automáticas y **Vite** para una experiencia de desarrollo más rápida.
 
 ## Tecnologías utilizadas
 
 - **React**: Framework principal para construir las interfaces de usuario.
 - **Cypress**: Herramienta para pruebas de integración end-to-end (E2E), asegurando que los proyectos sean funcionales y estén bien testeados.
-- **VITE**: Un bundler moderno para aplicaciones web, utilizado para acelerar el tiempo de desarrollo y mejorar la experiencia de compilación.
+- **Vite**: Un bundler moderno para aplicaciones web, utilizado para acelerar el tiempo de desarrollo y mejorar la experiencia de compilación.
 - **Animate.css** (opcional): Biblioteca para añadir animaciones CSS fáciles de usar.
 
 ## Instalación
