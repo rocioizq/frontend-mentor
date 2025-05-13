@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/style.css"> 
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+  <main>
+    <div class="calculator-container">
+      <div class="birthdate">
+        
+        <form id="form" action="#">
+          <div class="inputs-container">
+            <div class="user-data">
+              <label for=""day>Day</label>
+              <input type="number" name="day" id="day" placeholder="DD">
+              <div class="error-container">
+                <span class="error">  This field is required</span>
+              </div>
+            </div>
+            
+            <div class="user-data">
+              <label for="month">Month</label>
+              <input type="number" name="month" id="month" placeholder="MM">
+              <div class="error-container">
+                <span class="error">  This field is required</span>
+              </div>
+            </div>
+
+            <div class="user-data">
+              <label for="year">Year</label>
+              <input type="number" name="year" id="year" placeholder="YYYY">
+              <div class="error-container">
+                <span class="error">  This field is required</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="submit">
+            <hr class="divider">
+            <button class="btn-submit">
+              <img src="./assets/images/icon-arrow.svg" alt="icon arrow button convert">
+            </button>
+          </div>
+          
+        </form>
+
+        <div class="result">
+          <ul class="info-result">
+            <li><span class="result-year">- -</span> years</li>
+            <li><span class="result-month">- -</span> months</li>
+            <li><span class="result-day">- -</span> days</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="src/script.js"></script>
+</body>
+</html>
