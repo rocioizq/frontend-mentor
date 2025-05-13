@@ -18,7 +18,7 @@ Un componente de tarjeta de vista previa de producto que muestra un diseño limp
 - **CSS**
 
 ## 📷 Screenshots  
-![Product Preview Card Screenshot](../design/desktop-preview.jpg)  
+![Product Preview Card Screenshot](design/desktop-preview.jpg)  
 
 ## 📌 Notas
 Este es un ejercicio del sitio [Frontend Mentor](https://www.frontendmentor.io/), adaptado a un entorno moderno con React. 
