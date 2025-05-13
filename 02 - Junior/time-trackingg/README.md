@@ -13,9 +13,3 @@ Este proyecto es una aplicación web construida con **React**, **Vite** y **CSS*
 
 ## Feedback 💬  
 ¡Cualquier comentario o sugerencia es bienvenido! No dudes en abrir un issue o contactarme directamente.  
-
-## 📌 Notas
-Este es un ejercicio del sitio [Frontend Mentor](https://www.frontendmentor.io/), adaptado a un entorno moderno con React. 
-
-## 📷 Capturas de pantallas 
-![Time tracking Screenshot](./design/desktop-preview.webp)  

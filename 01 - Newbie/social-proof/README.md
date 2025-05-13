@@ -1,12 +1,16 @@
-# React + Vite
+# 🌐 Social Proof - Frontend Mentor  
+  Un componente de tarjeta de perfil con enlaces sociales que muestra mi perfil con los enlaces a redes sociales. Este diseño se realizó con React y Cypress a modo de práctica de creación de componentes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 **[Live Demo](https://social-proof-react-version.vercel.app/)**  
+🔗 **[Solution Demo](https://www.frontendmentor.io/solutions/react-vite-social-proof-PMe_-1kNG4)**  
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologías usadas  
+- **CSS3** – Estilado y diseño con Flexbox para responsividad.
+- **REACT** - Estructura de componentes.
+- **ANIMATE.CSS** - Añade animaciones suaves al cargar los elementos en la página.
+  
+## 📌 Notas
+Este es un ejercicio del sitio [Frontend Mentor](https://www.frontendmentor.io/), adaptado a un entorno moderno con React. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📷 Capturas de pantallas 
+![Social Proof Screenshot](design/desktop-preview.jpg)  
