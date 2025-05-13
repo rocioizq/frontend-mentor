@@ -1,6 +1,8 @@
-# Proyectos de Frontend Mentor - React + Cypress + Vite
+# 💫 Proyectos de Frontend Mentor - React + Cypress + Vite
 
 Este repositorio contiene mis proyectos realizados a partir de los desafíos de [Frontend Mentor](https://www.frontendmentor.io/), utilizando **React**, **Cypress** para pruebas automáticas y **Vite** para una experiencia de desarrollo más rápida.
+
+🔗 **[Perfil de Frontend Mentor](https://www.frontendmentor.io/profile/rocioizq)** 
 
 ## Tecnologías utilizadas
 
