@@ -4,7 +4,7 @@ El proyecto consiste en una tarjeta responsive compuesta por tres columnas, cada
 
 ## 🚀 Demo en vivo
 🔗 **[Live Demo](https://3-column-react.vercel.app/)**  
-🔗 **[Live Solution](https://3-column-react.vercel.app/)**  
+🔗 **[Live Solution](https://www.frontendmentor.io/solutions/responsive-3-column-react-css-5toy4jNYOT)**  
 
 ## ⚙️ Tecnologías utilizadas
 
