@@ -3,8 +3,8 @@ import Tracking from "./components/Tracking";
 import data from "./data.json";
 import User from "./components/User";
 import { useState } from "react";
-import jeremyImg from "../images/image-jeremy.png";
-import 'animate.css';
+import jeremyImg from "../public/images/image-jeremy.png";
+import "animate.css";
 
 function App() {
   const [timeframe, setTimeframe] = useState("weekly");
