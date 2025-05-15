@@ -1,8 +1,8 @@
 ## 🕒 Time tracking dashboard
 Este proyecto es una aplicación web construida con **React**, **Vite** y **CSS**, diseñada para mostrar un panel de seguimiento del tiempo de un usuario. Los datos se muestran en tarjetas con diferentes categorías como trabajo, estudio, ejercicio, y más. La aplicación permite al usuario cambiar entre diferentes intervalos de tiempo (`diario`, `semanal`, `mensual`) para visualizar el tiempo que ha dedicado a cada actividad.
 
-🔗 **[Live Demo]()**  
-🔗 **[Solution Demo]()**  
+🔗 **[Live Demo](https://time-tracking-react-rho.vercel.app/)**  
+🔗 **[Solution Demo](https://www.frontendmentor.io/solutions/time-tracking-react-cypress-Uv3hPpJn-g)**  
 
 ## Tecnologías utilizadas
 
