@@ -2,8 +2,8 @@
 
 Este proyecto es una aplicación web construida con **React**, **Vite** y **CSS**, diseñada para mostrar un panel de control de redes sociales. La aplicación presenta tarjetas con métricas y estadísticas de diferentes plataformas sociales, mostrando datos como seguidores, likes, y más. Además, incluye un modo oscuro que el usuario puede activar para mejorar la experiencia visual.
 
-🔗 **[Live Demo]()**  
-🔗 **[Solution Demo]()**  
+🔗 **[Live Demo](https://react-frontend-mentor.vercel.app/)**  
+🔗 **[Solution Demo](https://www.frontendmentor.io/solutions/social-media-dashboard-react-cypress-aQgcOk3nPZ)**  
 
 ## Tecnologías utilizadas
 
