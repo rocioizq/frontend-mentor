@@ -2,8 +2,8 @@
 
 Este proyecto construido con **React**, **Vite** y **CSS** se trata de una calculadora funcional con tres temas diferentes. La aplicación permite al usuario cambiar entre los temas para personalizar la apariencia, además de realizar operaciones matemáticas básicas como suma, resta, multiplicación y división.
 
-🔗 **[Live Demo]()**  
-🔗 **[Solution Demo]()**  
+🔗 **[Live Demo](https://react-calculator-ecru-zeta.vercel.app/)**  
+🔗 **[Solution Demo](https://www.frontendmentor.io/solutions/calculator-react-vite-XEkfhEaMS1)**  
 
 ## 🔄 Cambiar Temas  
 El usuario puede cambiar entre tres temas distintos, cada uno con su propia combinación de colores y estilos, mejorando la experiencia visual y adaptándose a diferentes gustos o condiciones de iluminación.
