@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+  --main-bg: hsl(222, 26%, 31%);
+  --toggle-bg: hsl(223, 31%, 20%);
+  --screen-bg: hsl(224, 36%, 15%);
+
+  --key-bg: hsl(30, 25%, 89%);
+  --key-shadow: hsl(28, 16%, 65%);
+  --key-text: hsl(221, 14%, 31%);
+
+  --key-bg-func: hsl(225, 21%, 49%);
+  --key-shadow-func: hsl(224, 28%, 35%);
+  --key-text-func: #fff;
+
+  --key-bg-equal: hsl(6, 63%, 50%);
+  --key-shadow-equal: hsl(6, 70%, 34%);
+  --key-text-equal: #fff;
+
+  --text: #fff;
+}
+
+html.theme-2 {
+  --main-bg: hsl(0, 0%, 90%);
+  --toggle-bg: hsl(0, 5%, 81%);
+  --screen-bg: hsl(0, 0%, 93%);
+
+  --key-bg: hsl(45, 7%, 89%);
+  --key-shadow: hsl(35, 11%, 61%);
+  --key-text: hsl(60, 10%, 19%);
+
+  --key-bg-func: hsl(185, 42%, 37%);
+  --key-shadow-func: hsl(185, 58%, 25%);
+  --key-text-func: #fff;
+
+  --key-bg-equal: hsl(25, 98%, 40%);
+  --key-shadow-equal: hsl(25, 99%, 27%);
+  --key-text-equal: #fff;
+
+  --text: hsl(60, 10%, 19%);
+}
+
+html.theme-3 {
+  --main-bg: hsl(268, 75%, 9%);
+  --toggle-bg: hsl(268, 71%, 12%);
+  --screen-bg: hsl(268, 71%, 12%);
+
+  --key-bg: hsl(268, 47%, 21%);
+  --key-shadow: hsl(290, 70%, 36%);
+  --key-text: hsl(52, 100%, 62%);
+
+  --key-bg-func: hsl(281, 89%, 26%);
+  --key-shadow-func: hsl(285, 91%, 52%);
+  --key-text-func: #fff;
+
+  --key-bg-equal: hsl(176, 100%, 44%);
+  --key-shadow-equal: hsl(177, 92%, 70%);
+  --key-text-equal: hsl(198, 20%, 13%);
+
+  --text: hsl(52, 100%, 62%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100dvh;
+  margin: 0;
+  padding: 2em;
+  font-family: "League Spartan", sans-serif;
+  font-size: 16px;
+  background-color: var(--main-bg);
+  color: var(--text);
+  transition: all 0.3s ease;
+}
+
+.calculator-container {
+  width: 100%;
+  max-width: 370px;
+}
+
+.header-calculator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-calculator h1,
+.dark-mode-container h3 {
+  color: var(--text);
+}
+
+.display {
+  background-color: var(--screen-bg);
+  border-radius: .3em;
+  color: var(--text);
+  height: 80px;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 1em;
+  font-size: 2.5em;
+  overflow: hidden;
+  font-weight: 700;
+  word-break: break-all;
+}
+
+.container {
+  width: 330px;
+  border-radius: .8em;
+  background-color: var(--toggle-bg);
+  padding: 1.3em;
+  margin-top: 1.5em;
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+  grid-gap: 1em;
+  justify-content: center;
+}
+
+button {
+  background-color: var(--key-bg);
+  box-shadow: 0px 4px var(--key-shadow);
+  color: var(--key-text);
+  width: 100%;
+  height: 70px;
+  border-radius: .2em;
+  border: none;
+  font-size: 2em;
+  font-weight: bolder;
+  transition: all 0.2s;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(1.1);
+}
+
+.function {
+  background-color: var(--key-bg-func);
+  box-shadow: 0px 4px var(--key-shadow-func);
+  color: var(--key-text-func);
+  font-size: 1.3em;
+}
+
+.function.reset {
+  grid-column: span 2;
+}
+
+.equal {
+  background-color: var(--key-bg-equal);
+  box-shadow: 0px 4px var(--key-shadow-equal);
+  color: var(--key-text-equal);
+  grid-column: span 2;
+}
+
+.dark-mode-container {
+  display: flex;
+  gap: 1em;
+}
+
+.container-switch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3em;
+}
+
+.theme-numbers {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+  font-size: 0.8em;
+  color: var(--text);
+}
+
+.switch {
+  position: relative;
+  width: 70px;
+  height: 24px;
+}
+
+.switch input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none; 
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.switch input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 0;
+  height: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.slider-multi {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--toggle-bg);
+  border-radius: 50px;
+  z-index: 1;
+}
+
+.slider-multi::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  width: 18px;
+  height: 18px;
+  background-color: var(--key-bg-equal);
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+html.theme-1 .slider-multi::before {
+  transform: translateX(0px);
+}
+
+html.theme-2 .slider-multi::before {
+  transform: translateX(23px);
+}
+
+html.theme-3 .slider-multi::before {
+  transform: translateX(46px);
+}
